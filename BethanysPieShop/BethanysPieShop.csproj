@@ -9,5 +9,14 @@
     <Folder Include="Views\Pie\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Views\Shared\" />
+    <Folder Include="wwwroot\content\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\lib\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\css\bootstrap.css" />
+    <Content Remove="wwwroot\lib\bootstrap\css\bootstrap.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\css\bootstrap.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\js\bootstrap.bundle.js" />
   </ItemGroup>
 </Project>
